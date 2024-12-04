@@ -1,0 +1,16 @@
+.book-list-section {
+    padding: 30px;
+    background-color: #f7f7f7;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  

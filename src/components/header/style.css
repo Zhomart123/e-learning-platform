@@ -1,0 +1,107 @@
+/* .header {
+	padding: 40px 0;
+	min-height: 695px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--header-bg);
+	background-image: url('./../../img/header-bg.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center center;
+
+	color: var(--header-text);
+	text-align: center;
+}
+
+.header__wrapper {
+	padding: 0 15px;
+	max-width: 660px;
+}
+
+.header__title {
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.header__title strong {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.header__title em {
+	font-style: normal;
+	color: var(--accent);
+}
+
+.header__text {
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 1.333;
+}
+
+.header__text p + p {
+	margin-top: 0.5em;
+} */
+
+.slide-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 70px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.slide-content {
+	max-width: 40%;
+}
+
+.slide-content h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.slide-content p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+.slide-button {
+	padding: 15px 20px;
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
+}
+
+.slide-image img {
+	width: 800px;
+	height: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white; /* Change arrow color */
+  background-color: rgb(32, 32, 32); /* Change background color */
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Change Arrow Icons with Custom Content */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px; /* Adjust arrow size */
+  font-weight: bold;
+  color: rgb(255, 255, 255); /* Change arrow color */
+}
